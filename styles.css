@@ -82,6 +82,19 @@ cursor: pointer;
 p.active {
 color: white;
 }
+button {
+border: none;
+padding: 10px ;
+cursor: pointer;
+}
+button:hover{
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+}
+button.active {
+background-color: rgb(39, 39, 39);
+color: aliceblue;
+}
 /* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */
 
 /* Os seguintes estilos são os que usaremos para aplicar o modo escuro, 
